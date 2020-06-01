@@ -1,0 +1,5 @@
+{% load i18n utility_tags %}
+<a href="{% modify_query 'page' param %}"
+   class="list-group-item {% if not selected %}active{% endif %}">
+    {% trans "All" %}
+</a>

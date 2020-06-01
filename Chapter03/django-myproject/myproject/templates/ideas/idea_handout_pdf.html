@@ -1,0 +1,18 @@
+{% extends 'base_pdf.html' %}
+{% load i18n qr_code %}
+
+{% block content %}
+    <h1 class="h3">{% trans "Handout" %}</h1>
+    <h2 class="h1">{{ idea.translated_title }}</h2>
+    <img src="{{ idea.picture_large.url }}" alt="" class="img-responsive w-100">
+    <div class="my-3">{{ idea.translated_content|linebreaks|urlize }}</div>
+    <p>
+    {% for category in idea.categories.all %}
+        <span class="badge badge-pill badge-info">{{ category.translated_title }}</span>
+    {% endfor %}
+    </p>
+    <h4>{% trans "See more information online:" %}</h4>
+    {% qr_from_text idea.get_url size=20 border=0 as svg_code %}
+    <img src="data:image/svg+xml, {{ svg_code|urlencode }}" alt="">
+    <p class="mt-3 text-break">{{ idea.get_url }}</p>
+{% endblock %}

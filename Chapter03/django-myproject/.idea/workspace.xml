@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bfdcd36-5f11-4694-bbea-70baac6713e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myproject/apps/core/templates/core/widgets/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/apps/core/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/apps/core/templatetags/utility_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/apps/ideas/documents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/apps/search/multilingual_whoosh_backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/apps/search/search_indexes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/site_static/site/js/inlines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/base_pdf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/ideas/forms/translations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/ideas/idea_handout_pdf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/ideas/idea_search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/ideas/includes/picture_guidelines.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/search/search.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1aiHO1qXAz22AUPeiqFQKb8jinn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/projects/myproject_website/env/lib/python3.8/site-packages/django/utils" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/myproject/apps/core/templates/core" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Desktop/projects/myproject_website/env/lib/python3.8/site-packages/django/utils" />
+      <recent name="$PROJECT_DIR$/myproject/site_static/site/css" />
+      <recent name="$PROJECT_DIR$/myproject/apps/core/templatetags" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="django-myproject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django-myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myproject.settings.dev" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bfdcd36-5f11-4694-bbea-70baac6713e0" name="Default Changelist" comment="" />
+      <created>1587211458310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587211458310</updated>
+      <workItem from="1587211459814" duration="4296000" />
+      <workItem from="1587216076110" duration="4938000" />
+      <workItem from="1587308076671" duration="1576000" />
+      <workItem from="1590846927816" duration="5983000" />
+      <workItem from="1590885637374" duration="5325000" />
+      <workItem from="1590894588365" duration="18225000" />
+      <workItem from="1590930294483" duration="7003000" />
+      <workItem from="1590995030372" duration="9149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="663" y="390" key="#Notifications" timestamp="1590917427396">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="663" y="390" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1590917427396" />
+    <state width="889" height="466" key="DebuggerActiveHint" timestamp="1591000596933">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="889" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1591000596933" />
+    <state x="582" y="240" key="FileChooserDialogImpl" timestamp="1587211698892">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="582" y="240" key="FileChooserDialogImpl/0.23.1440.877@0.23.1440.877" timestamp="1587211698892" />
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom" timestamp="1591003458206">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591003458206" />
+    <state width="1398" height="266" key="GridCell.Tab.0.center" timestamp="1591003458206">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591003458206" />
+    <state width="1398" height="266" key="GridCell.Tab.0.left" timestamp="1591003458205">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591003458205" />
+    <state width="1398" height="266" key="GridCell.Tab.0.right" timestamp="1591003458206">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591003458206" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1591003223794">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591003223794" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1591003223793">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1591003223793" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1591003223792">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1591003223792" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1591003223793">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1591003223793" />
+    <state x="351" y="85" key="SettingsEditor" timestamp="1590853057154">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="351" y="85" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590853057154" />
+    <state width="720" height="413" key="XDebugger.FullValuePopup" timestamp="1590933485129">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="720" height="413" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1590933485129" />
+    <state x="407" y="394" width="596" height="470" key="find.popup" timestamp="1591002005493">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="407" y="394" width="596" height="470" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1591002005493" />
+    <state x="651" y="224" width="670" height="676" key="search.everywhere.popup" timestamp="1590901571324">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="651" y="224" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1590901571324" />
+  </component>
+</project>

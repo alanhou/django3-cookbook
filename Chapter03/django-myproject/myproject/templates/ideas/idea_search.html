@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n crispy_forms_tags %}
+
+{% block sidebar %}
+    {% crispy form %}
+{% endblock %}
+
+{% block main %}
+    <h1>{% trans "Search Results" %}</h1>
+    {% if object_list %}
+        {% for idea in object_list %}
+            <a href="{{ idea.get_url_path }}" class="d-block my-3">
+                <div class="card">
+                    <img src="{{ idea.picture_thumbnail_url }}" alt="">
+                    <div class="card-body">
+                        <p class="card-text">{{ idea.translated_title }}</p>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+        {% include "misc/includes/pagination.html" %}
+    {% else %}
+        <p>{% trans "No ideas found." %}</p>
+    {% endif %}
+{% endblock %}
