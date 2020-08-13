@@ -1,0 +1,38 @@
+{% extends "base.html" %} 
+{% load i18n static likes_tags %}
+
+{% block content %}
+  <a href="{% url 'locations:location_list' %}">{% trans "Interesting Locations" %}</a>
+  <div class="float-right">
+    {% if request.user.is_authenticated %}
+      {% like_widget for location %}
+    {% endif %}
+  </div>
+  <h1 class="map-title">{{ location.name }}</h1>
+  {% if location.picture %}
+    <picture class="img-fluid">
+      <source
+        media="(max-width: 480px)"
+        srcset="{{ location.picture_mobile.url }}" />
+      <source
+        media="(max-width: 768px)"
+        srcset="{{ location.picture_tablet.url }}" />
+      <img
+        src="{{ location.picture_desktop.url }}"
+        alt="{{ location.name }}"
+        class="img-fluid"
+      />
+    </picture>
+  {% endif %}
+  <div class="my-3">
+    {{ location.description|linebreaks|urlize }} 
+  </div>
+  {% with geoposition=location.get_geoposition %}
+      <div id="map" class="mb-3" data-latitude="{{ geoposition.latitude|stringformat:'f' }}" data-longitude="{{ geoposition.longitude|stringformat:'f'  }}" data-address="{{ location.get_full_address }}"><
+    /div>
+  {% endwith %}
+{% endblock %}
+{% block js %}
+  <script src="{% static 'site/js/location_detail.js' %}"></script>
+  <script async defer src="https://maps-api-ssl.google.com/maps/api/js?key={{ GOOGLE_MAPS_API_KEY }}&callback=Location.init"></script>
+{% endblock %}
