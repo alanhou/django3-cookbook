@@ -15,7 +15,7 @@ idna==2.9
 mysqlclient==1.4.6
 oauthlib==3.1.0
 pilkit==2.0
-Pillow==7.1.1
+Pillow==9.3.0
 PyJWT==1.7.1
 -e git://github.com/omab/python-social-auth.git@6b1e301c7960827fbeeff13d580f790b297cf791#egg=python_social_auth
 python3-openid==3.1.0
